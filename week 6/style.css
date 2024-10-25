@@ -1,0 +1,57 @@
+/* span#id1 {
+    color: red;
+}
+.highlight {
+    background-color: yellow;
+    color: blue;
+}
+#id2 {
+    color: green;
+}
+
+p + p {
+    font-style: italic;
+    font-weight: bold;
+}
+
+div.items a {
+    color: green;
+    font-weight: bold;
+} */
+
+.red {
+    color: red;
+}
+.underline {
+    text-decoration: underline;
+}
+.bold {
+    font-weight: bold;
+}
+.highlight {
+    color: blue;
+    background-color: yellow;
+}
+p[mycustomattribute] {
+    color: green;
+}
+p[mycustomattribute="test"] {
+    color: orange;
+}
+h1 , p {
+    color: green;
+}
+
+a:hover {
+    color: green;
+    text-decoration: underline;
+}
+a.visited {
+    color: red;
+}
+a:link {
+    color: brown;
+}
+ul:active {
+    background: yellow;
+}
