@@ -32,10 +32,6 @@
             } else if (operator === '/' && num2 == 0) {            // kiểm tra chia cho 0
                 error = 'Can not divide by 0.';
             }
-            if (error) {
-                resultDiv.innerHTML = `<div class="error">${error}</div>`;     // kiểm tra lỗi
-                return;
-            }
             const x = parseFloat(num1);
             const y = parseFloat(num2);
 
@@ -46,6 +42,7 @@
                 case '*': result = x * y; break;
                 case '/': result = x / y; break;
             }
+            
             result = Math.round(result * 100000) / 100000;
             resultDiv.innerHTML = 'Result: ' + result;
         }
