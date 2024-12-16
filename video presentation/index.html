@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Themed Music Playlist</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Relaxing Evening Playlist</h1>
+    </header>
+    <div class="container">
+        <p>Welcome to the "Relaxing Evening Playlist"! Each track is carefully chosen to help you 
+            unwind and relax. Enjoy these samples and descriptions.</p>
+        <div class="playlist">
+            <div class="track">
+                <h2>Moonlight Sonata - Beethoven</h2>
+                <p>A timeless classical piece that brings a sense of serenity and peace.</p>
+                <audio id="track1" src="audio/moonlight_sonata.mp3"></audio>
+                <button class="play-button" onclick="playAudio('track1')">Play</button>
+                <button class="pause-button" onclick="playAudio('track1')">Pause</button>
+            </div>
+            <div class="track">
+                <h2>River Flows In You - Yiruma</h2>
+                <p>A beautiful piano composition that creates a gentle and reflective mood.</p>
+                <audio id="track2" src="audio/river_flows_in_you.mp3"></audio>
+                <button class="play-button" onclick="playAudio('track2')">Play</button>
+            </div>
+            <div class="track">
+                <h2>Weightless - Marconi Union</h2>
+                <p>Scientifically proven to be one of the most relaxing songs ever composed.</p>
+                <audio id="track3" src="audio/weightless.mp3"></audio>
+                <button class="play-button" onclick="playAudio('track3')">Play</button>
+            </div>
+            <div class="track">
+                <h2>Clair de Lune - Debussy</h2>
+                <p>An impressionist masterpiece that evokes a sense of calm and beauty.</p>
+                <audio id="track4" src="audio/clair_de_lune.mp3"></audio>
+                <button class="play-button" onclick="playAudio('track4')">Play</button>
+            </div>
+            <div class="track">
+                <h2>A Thousand Years - Christina Perri</h2>
+                <p>A heartfelt and soothing melody that speaks of love and eternity.</p>
+                <audio id="track5" src="audio/a_thousand_years.mp3"></audio>
+                <button class="play-button" onclick="playAudio('track5')">Play</button>
+            </div>
+            <div class="track">
+                <h2>Satie - Gymnopédie No.1</h2>
+                <p>A gentle and minimalist piano piece perfect for relaxation.</p>
+                <audio id="track6" src="audio/gymnopedie_no1.mp3"></audio>
+                <button class="play-button" onclick="playAudio('track6')">Play</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
